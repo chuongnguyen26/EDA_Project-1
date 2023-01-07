@@ -29,7 +29,7 @@ def load_lottieurl(url:str):
         return None
     return r.json()
 
-lottie_code = load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_jay0joxv.json")
+lottie_code = load_lottieurl("https://assets7.lottiefiles.com/packages/lf20_jay0joxv.json")
 
 st.markdown("<h1 style='text-align: center; font-size: 20'>Dive Into Car Analysis</h1>", unsafe_allow_html=True)
 st.markdown("<h4 style='text-align: center; font-size: 20'>By Chuong Nguyen</h4>", unsafe_allow_html=True)
@@ -45,8 +45,6 @@ st.write("Hello and Welcome! I'm Chuong Nguyen, as of this project, I'm a 1st ye
 " will be my first in-depth EDA project analyzing car manufacturing market.")
 
 left, right = st.columns((10,5))
-
-lottie_code1 = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_yvze9l8i.json")
 
 with left:
     st.write("Why chose EDA Analysis? First of all, this project will be the first phase"
@@ -64,6 +62,7 @@ with left:
     " page talking about my EDA journey.")
 
 with right:
+    lottie_code1 = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_yvze9l8i.json")
     st_lottie(
         lottie_code1,
         height = 200,
@@ -284,27 +283,29 @@ with center_col3:
 with right_col3:
     bar3()
 
-st.write("As I am looking at the pie and bar graphs, I can't stop but be amazed"
-" with the unexpecting results. Why are car prices getting higher toward the end"
-" of the year, and why is there such as big gap in prices between January and"
-" December? After much thoughts, it makes sense for the result to come out the"
-" way it is because according to Spectrum News1 people tend to spend more when"
+line_break()
+st.write("As I look at the pie and bar graphs, I can't stop but be amazed"
+" by the unexpecting results. Why are car prices getting higher toward the end"
+" of the year, and why is there such a big price gap between January and"
+" December? After much thought, it makes sense for the result to come out the"
+" way it is because, according to Spectrum News1, people spend more when"
 " the weather is much cooler. Coincidentally, the last quarter months of the year"
-" are also time of the holidays where businesses provide large discounts and sales"
+" are also the time of the holidays, when businesses provide large discounts and sales"
 " to encourage consumers to spend more. But wait, how does spending more related to"
-" higher prices? Well actually, spending more drives up prices because limited"
-" products can't accomodate high demands. Creating a problem known as inflation,"
+" higher prices? Well, spending more drives up costs because limited"
+" products can't accommodate high demands. Creating a problem known as inflation,"
 " where buyers have to spend more than they would otherwise when goods are plentiful."
-" Notice how the price dramatically dropped in January, which is no accidental"
+" Notice how the price dramatically dropped in January, which is not accidental"
 " because January is after all of the big holidays. (Note regarding the average price"
-" as you might think the values are false because the average price is simply way too"
+" you might think the values are false because the average price is way too"
 " high to be logical. However, in this dataset, luxurious cars like Rolls Royce and"
-" Mercedes are also included which might throw off the value a little. And these outliers"
-" are too important to eliminate> Additionally, since I'm evaluating price trend"
-" by month, the specific values are not so much important.")
+" Mercedes are also included, which might increase the value a little. And these outliers"
+" are too essential to eliminate> Additionally, since I'm evaluating price trends"
+" by month, the specific values are unimportant.")
 
 st.markdown("<a style='color: black;' href='https://spectrumlocalnews.com/nys/central-ny/weather/2022/12/10/do-we-spend-more-money-when-it-s-cold-'>- Spectrum News1</a>",
 unsafe_allow_html=True)
+line_break()
 
 ##################################
 ### Find 3 - Avg Price by Year ###
@@ -354,248 +355,308 @@ def graph1():
 
     st.pyplot(fig)
 
-graph1()
+left_col4, center_col4, right_col4 = st.columns((3, 10, 3))
+
+with left_col4:
+    st.write()
+with center_col4:
+    graph1()
+with right_col4:
+    st.write()
+
+line_break()
+st.write("As expected, the average price per vehicle trends upward over the years"
+" and will no doubt continue to grow in order to adjust for inflation, and growing"
+" labor, transportation, and raw material costs. In terms of this graph, I compared"
+" the price of vehicles based on the fuel types and if that may differ from the"
+" overall price, which serves as the controlled variable. Overall, all of the"
+" graphs trend upward which go according to my prediction.")
 
 ####################################################
 ### Find 4 - Avg Price by Year and Total Vehicle ###
 ####################################################
 
-# diesel_vehicle = data.loc[data["fuel"] == "Diesel"]
-# price_diesel = diesel_vehicle["avg_price_brl"]
-# year_diesel = diesel_vehicle["year_model"]
+diesel_vehicle = data.loc[data["fuel"] == "Diesel"]
+price_diesel = diesel_vehicle["avg_price_brl"]
+year_diesel = diesel_vehicle["year_model"]
 
-# price = data["avg_price_brl"]
-# year = data["year_model"]
+price = data["avg_price_brl"]
+year = data["year_model"]
 
 
-# gas_vehicle = data.loc[data["fuel"] == "Gasoline"]
-# price_gas = gas_vehicle["avg_price_brl"]
-# year_gas = gas_vehicle["year_model"]
+gas_vehicle = data.loc[data["fuel"] == "Gasoline"]
+price_gas = gas_vehicle["avg_price_brl"]
+year_gas = gas_vehicle["year_model"]
 
 # ####################################################
 # ### Plot 4 - Avg Price by Year and Total Vehicle ###
 # ####################################################
 
-# def scatter1():
-#     fig, plot = plt.subplots(figsize=(10,10))
+def scatter1():
+    fig, plot = plt.subplots(figsize=(10,10))
 
-#     sns.scatterplot(year, price/1000, color = '#5A5A5A')
+    sns.scatterplot(year, price/1000, color = '#5A5A5A')
 
-#     plt.title("Average Price Per Vehicle Over the Years", 
-#     fontfamily = 'sans serif', fontsize = 22, pad = 40, color = '#195190FF')
+    plt.title("Average Price Per Vehicle Over the Years", 
+    fontfamily = 'sans serif', fontsize = 22, pad = 40, color = '#195190FF')
 
-#     plt.xlabel("Years", fontfamily = 'sans serif', fontsize = 20, 
-#     color = '#195190FF')
-#     plt.xticks(color = '#195190FF', fontsize = 20)
+    plt.xlabel("Years", fontfamily = 'sans serif', fontsize = 20, 
+    color = '#195190FF')
+    plt.xticks(color = '#195190FF', fontsize = 20)
 
-#     plt.ylabel("Average Price Per Vehicle", fontfamily = 'sans serif', 
-#     fontsize = 20, color = '#195190FF')
-#     plt.yticks(color = '#195190FF', fontsize = 20)
-#     st.pyplot(fig)
+    plt.ylabel("Average Price Per Vehicle", fontfamily = 'sans serif', 
+    fontsize = 20, color = '#195190FF')
+    plt.yticks(color = '#195190FF', fontsize = 20)
+    st.pyplot(fig)
 
-# def scatter2():
-#     fig, plot = plt.subplots(figsize=(10,10))
+def scatter2():
+    fig, plot = plt.subplots(figsize=(10,10))
 
-#     sns.scatterplot(year_diesel, price_diesel/1000, color = '#5A5A5A')
+    sns.scatterplot(year_diesel, price_diesel/1000, color = '#5A5A5A')
 
-#     plt.title("Average Price Per Vehicle Run On Diesel Over the Years", 
-#     fontfamily = 'sans serif', fontsize = 22, pad = 40, color = '#990011FF')
+    plt.title("Average Price Per Vehicle Run On Diesel Over the Years", 
+    fontfamily = 'sans serif', fontsize = 22, pad = 40, color = '#990011FF')
 
-#     plt.xlabel("Years", fontfamily = 'sans serif', fontsize = 20, color = '#990011FF')
-#     plt.xticks(color = '#990011FF', fontsize = 20)
+    plt.xlabel("Years", fontfamily = 'sans serif', fontsize = 20, color = '#990011FF')
+    plt.xticks(color = '#990011FF', fontsize = 20)
 
-#     plt.ylabel("Average Price Per Vehicle Run On Diesel", 
-#     fontfamily = 'sans serif', fontsize = 20, color = '#990011FF')
-#     plt.yticks(color = '#990011FF', fontsize = 20)
-#     st.pyplot(fig)
+    plt.ylabel("Average Price Per Vehicle Run On Diesel", 
+    fontfamily = 'sans serif', fontsize = 20, color = '#990011FF')
+    plt.yticks(color = '#990011FF', fontsize = 20)
+    st.pyplot(fig)
 
-# def scatter3():
-#     fig, plot = plt.subplots(figsize=(10,10))
+def scatter3():
+    fig, plot = plt.subplots(figsize=(10,10))
 
-#     sns.scatterplot(year_gas, price_gas/1000, color = '#5A5A5A')
+    sns.scatterplot(year_gas, price_gas/1000, color = '#5A5A5A')
 
-#     plt.title("Average Price Per Vehicle Run On Gas Over the Years", 
-#     fontfamily = 'sans serif', fontsize = 22, pad = 40, color = '#2C5F2D')
-#     plt.xlabel("Years", fontfamily = 'sans serif', fontsize = 20, color = '#2C5F2D')
-#     plt.xticks(color = '#2C5F2D', fontsize = 20)
+    plt.title("Average Price Per Vehicle Run On Gas Over the Years", 
+    fontfamily = 'sans serif', fontsize = 22, pad = 40, color = '#2C5F2D')
+    plt.xlabel("Years", fontfamily = 'sans serif', fontsize = 20, color = '#2C5F2D')
+    plt.xticks(color = '#2C5F2D', fontsize = 20)
 
-#     plt.ylabel("Average Price Per Vehicle Run On Gas", 
-#     fontfamily = 'sans serif', fontsize = 20, color = '#2C5F2D')
-#     plt.yticks(color = '#2C5F2D', fontsize = 20)    
-#     st.pyplot(fig)
+    plt.ylabel("Average Price Per Vehicle Run On Gas", 
+    fontfamily = 'sans serif', fontsize = 20, color = '#2C5F2D')
+    plt.yticks(color = '#2C5F2D', fontsize = 20)    
+    st.pyplot(fig)
 
-# left_col4, middle_col4, right_col4 = st.columns(3)
+line_break()
+left_col5, middle_col5, right_col5 = st.columns(3)
 
-# with left_col4:
-#     scatter1()
-# with middle_col4:
-#     scatter2()
-# with right_col4:
-#     scatter3()
+with left_col5:
+    scatter1()
+with middle_col5:
+    scatter2()
+with right_col5:
+    scatter3()
 
-# ###########################################################
-# ### Find 5 - Avg Price by Engine Size and Total Vehicle ###
-# ###########################################################
+line_break()
+st.write("Wait, isn't there already a graph that plotted the average price of vehicles"
+" over the years? Absolutely correct, but I want to have closer look at the"
+" distribution of vehicles based on prices over the years. And based on these scatter"
+" plots, we can see the distribution of cars based on prices to be fairly accurate"
+" with today's values.")
+line_break()
 
-# diesel_vehicle = data.loc[data["fuel"] == "Diesel"]
-# price_diesel = diesel_vehicle["avg_price_brl"]
-# engine_diesel = diesel_vehicle["engine_size"]
+###########################################################
+### Find 5 - Avg Price by Engine Size and Total Vehicle ###
+###########################################################
 
-# gas_vehicle = data.loc[data["fuel"] == "Gasoline"]
-# price_gas = gas_vehicle["avg_price_brl"]
-# engine_gas = gas_vehicle["engine_size"]
+diesel_vehicle = data.loc[data["fuel"] == "Diesel"]
+price_diesel = diesel_vehicle["avg_price_brl"]
+engine_diesel = diesel_vehicle["engine_size"]
 
-# ###########################################################
-# ### Plot 5 - Avg Price by Engine Size and Total Vehicle ###
-# ###########################################################
+gas_vehicle = data.loc[data["fuel"] == "Gasoline"]
+price_gas = gas_vehicle["avg_price_brl"]
+engine_gas = gas_vehicle["engine_size"]
 
-# def scatter4():
-#     fig, engine = plt.subplots(figsize=(10,10))
+###########################################################
+### Plot 5 - Avg Price by Engine Size and Total Vehicle ###
+###########################################################
 
-#     sns.scatterplot(engine_diesel, price_diesel/1000, color = '#5A5A5A')
+def scatter4():
+    fig, engine = plt.subplots(figsize=(10,10))
 
-#     plt.title("Average Price Per Vehicle Run On Diesel With Different Engine Sizes", fontfamily = 'sans serif', fontsize = 22, pad = 40, color = '#603F83FF')
+    sns.scatterplot(engine_diesel, price_diesel/1000, color = '#5A5A5A')
 
-#     plt.xlabel("Engine Sizes", fontfamily = 'sans serif', fontsize = 20, color = '#603F83FF')
-#     plt.xticks(color = '#603F83FF', fontsize = 20)
+    plt.title("Average Price Per Vehicle Run On Diesel With Different Engine Sizes", fontfamily = 'sans serif', fontsize = 22, pad = 40, color = '#603F83FF')
 
-#     plt.ylabel("Average Price Per Vehicle Run On Diesel", fontfamily = 'sans serif', fontsize = 20, color = '#603F83FF')
-#     plt.yticks(color = '#603F83FF', fontsize = 20)
-#     st.pyplot(fig)
+    plt.xlabel("Engine Sizes", fontfamily = 'sans serif', fontsize = 20, color = '#603F83FF')
+    plt.xticks(color = '#603F83FF', fontsize = 20)
 
-# def scatter5():
-#     fig, engine = plt.subplots(figsize=(10,10))
+    plt.ylabel("Average Price Per Vehicle Run On Diesel", fontfamily = 'sans serif', fontsize = 20, color = '#603F83FF')
+    plt.yticks(color = '#603F83FF', fontsize = 20)
+    st.pyplot(fig)
 
-#     sns.scatterplot(engine_gas, price_gas/1000, color = '#5A5A5A')
+left_col6, right_col6 = st.columns(2)
 
-#     plt.title("Average Price Per Vehicle Run On Gasoline With Different Engine Sizes", fontfamily = 'sans serif', fontsize = 22, pad = 40, color = '#195190FF')
+with left_col6:
+    lottie_code2 = load_lottieurl("https://assets10.lottiefiles.com/private_files/lf30_bx07iy2i.json")
+    st_lottie(
+        lottie_code2,
+        height = 100,
+    )
+    st.write("Based on research, vehicles run on diesel are typically large trucks."
+    " It is very interesting to see that consumers prefer trucks with smaller"
+    " engine size. And according to WhichCar, the reason the smaller engine trucks"
+    " are popular among consumers is because they are more efficient and lesser cost"
+    " to operate. While bigger engine size trucks are more powerful, but the less"
+    " efficient performance and higher cost is too much for consumers to bear.")
+    st.markdown("<a style='color: black' href='https://www.whichcar.com.au/car-advice/what-is-engine-size-and-why-does-it-matter'>- WhichCar</a>",
+    unsafe_allow_html=True)
+with right_col6:
+    line_break()
+    line_break()
+    scatter4()
 
-#     plt.xlabel("Engine Sizes", fontfamily = 'sans serif', fontsize = 20, color = '#195190FF')
-#     plt.xticks(color = '#195190FF', fontsize = 20)
+def scatter5():
+    fig, engine = plt.subplots(figsize=(10,10))
 
-#     plt.ylabel("Average Price Per Vehicle Run On Gasoline", fontfamily = 'sans serif', fontsize = 20, color = '#195190FF')
-#     plt.yticks(color = '#195190FF', fontsize = 20)
-#     st.pyplot(fig)
+    sns.scatterplot(engine_gas, price_gas/1000, color = '#5A5A5A')
 
-# left_col5, right_col5 = st.columns(2)
+    plt.title("Average Price Per Vehicle Run On Gasoline With Different Engine Sizes", fontfamily = 'sans serif', fontsize = 22, pad = 40, color = '#195190FF')
 
-# with left_col5:
-#     scatter4()
-# with right_col5:
-#     scatter5()
+    plt.xlabel("Engine Sizes", fontfamily = 'sans serif', fontsize = 20, color = '#195190FF')
+    plt.xticks(color = '#195190FF', fontsize = 20)
 
-# #############################################
-# ### Find 6 - Number of Vehicles by Brands ###
-# #############################################
+    plt.ylabel("Average Price Per Vehicle Run On Gasoline", fontfamily = 'sans serif', fontsize = 20, color = '#195190FF')
+    plt.yticks(color = '#195190FF', fontsize = 20)
+    st.pyplot(fig)
 
-# data.drop(data[(data['fuel'] == "Alcohol")].index, inplace=True)
+left_col7, right_col7 = st.columns(2)
 
-# car_brand = data["brand"].unique()
-# fuel = data['fuel'].unique()
+with left_col7:
+    line_break()
+    line_break()
+    scatter5()
+with right_col7:
+    st.write("On the other hand, vehicles run on gasoline are typically Sedan, SUV"
+    " or smaller car types. And interesting enough, consumers prefer middle to"
+    " to larger engine size for smaller vehicles. According to Carbuyer, consumers"
+    " are interested in larger engine size vehicle because it means that the car"
+    " has the capacity to take in larger load, accelerate faster, and bigger in"
+    " size. Which is very convenient for traveling long distance and carrying"
+    " decent size cargoes that a truck might be large for the use.")
+    st.markdown("<a style='color: black' href='https://www.whichcar.com.au/car-advice/what-is-engine-size-and-why-does-it-matter'>- CarBuyer</a>", 
+    unsafe_allow_html=True)
+    lottie_code3 = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_zbyipz72.json")
+    st_lottie(
+        lottie_code3,
+        height = 100,
+    )
+line_break()
 
-# car_brand_1 = []
-# diesel_1 = []
-# gas_1 = []
+#############################################
+### Find 6 - Number of Vehicles by Brands ###
+#############################################
 
-# car_brand_2 = []
-# diesel_2 = []
-# gas_2 = []
+data.drop(data[(data['fuel'] == "Alcohol")].index, inplace=True)
 
-# for i in car_brand:
-#   brand = data.loc[data["brand"] == i]
-#   brand_fuel_unique = brand['fuel'].unique()
-#   brand_fuel_count = brand["fuel"].value_counts()
+car_brand = data["brand"].unique()
+fuel = data['fuel'].unique()
 
-#   if len(car_brand_1) < 43:
-#     car_brand_1.append(i)
-#   else:
-#     car_brand_2.append(i)
+car_brand_1 = []
+diesel_1 = []
+gas_1 = []
+
+car_brand_2 = []
+diesel_2 = []
+gas_2 = []
+
+for i in car_brand:
+  brand = data.loc[data["brand"] == i]
+  brand_fuel_unique = brand['fuel'].unique()
+  brand_fuel_count = brand["fuel"].value_counts()
+
+  if len(car_brand_1) < 43:
+    car_brand_1.append(i)
+  else:
+    car_brand_2.append(i)
   
-#   if brand_fuel_unique.size == 1:
-#     if brand_fuel_unique[0] == "Gasoline":
-#       if len(diesel_1) < 43 and len(gas_1) < 43: 
-#         gas_1.append(brand_fuel_count[0])
-#         diesel_1.append(0)
-#       else:
-#         gas_2.append(brand_fuel_count[0])
-#         diesel_2.append(0)
-#     else:
-#       if len(diesel_1) < 43 and len(gas_1) < 43:
-#         diesel_1.append(brand_fuel_count[0])
-#         gas_1.append(0)
-#       else:
-#         diesel_2.append(brand_fuel_count[0])
-#         gas_2.append(0)
-#   else:
-#       if len(diesel_1) < 43 and len(gas_1) < 43:
-#         gas_1.append(brand_fuel_count[0])
-#         diesel_1.append(brand_fuel_count[1])
-#       else:
-#         gas_2.append(brand_fuel_count[0])
-#         diesel_2.append(brand_fuel_count[1])
+  if brand_fuel_unique.size == 1:
+    if brand_fuel_unique[0] == "Gasoline":
+      if len(diesel_1) < 43 and len(gas_1) < 43: 
+        gas_1.append(brand_fuel_count[0])
+        diesel_1.append(0)
+      else:
+        gas_2.append(brand_fuel_count[0])
+        diesel_2.append(0)
+    else:
+      if len(diesel_1) < 43 and len(gas_1) < 43:
+        diesel_1.append(brand_fuel_count[0])
+        gas_1.append(0)
+      else:
+        diesel_2.append(brand_fuel_count[0])
+        gas_2.append(0)
+  else:
+      if len(diesel_1) < 43 and len(gas_1) < 43:
+        gas_1.append(brand_fuel_count[0])
+        diesel_1.append(brand_fuel_count[1])
+      else:
+        gas_2.append(brand_fuel_count[0])
+        diesel_2.append(brand_fuel_count[1])
 
-# #############################################
-# ### Plot 6 - Number of Vehicles by Brands ###
-# #############################################
+#############################################
+### Plot 6 - Number of Vehicles by Brands ###
+#############################################
 
-# def stacked_bar1():
-#     fig, graph = plt.subplots(figsize=(20,20))
+def stacked_bar1():
+    fig, graph = plt.subplots(figsize=(20,20))
 
-#     graph.barh(car_brand_1, diesel_1, label = "Diesel", color = "#CBCE91FF")
-#     graph.barh(car_brand_1, gas_1, left=diesel_1, label = "Gasoline", color = "#76528BFF")
+    graph.barh(car_brand_1, diesel_1, label = "Diesel", color = "#CBCE91FF")
+    graph.barh(car_brand_1, gas_1, left=diesel_1, label = "Gasoline", color = "#76528BFF")
 
-#     graph.spines['top'].set_visible(False)
-#     graph.spines['right'].set_visible(False)
-#     graph.spines['left'].set_visible(False)
-#     graph.spines['bottom'].set_visible(False)
+    graph.spines['top'].set_visible(False)
+    graph.spines['right'].set_visible(False)
+    graph.spines['left'].set_visible(False)
+    graph.spines['bottom'].set_visible(False)
 
-#     plt.tick_params(left = False)
-#     plt.minorticks_off()
-#     plt.tick_params(bottom = False)
-#     plt.title("Amount of Diesel and Gasoline Vehicles by Brand", fontfamily = 'sans serif', fontsize = 25, pad = 40, color = '#76528BFF')
+    plt.tick_params(left = False)
+    plt.minorticks_off()
+    plt.tick_params(bottom = False)
 
-#     plt.xlabel("Total Amount of Vehicles", fontfamily = 'sans serif', fontsize = 20, color = '#76528BFF')
-#     plt.xticks(color = '#76528BFF', fontsize = 20)
+    plt.xlabel("Total Amount of Vehicles", fontfamily = 'sans serif', fontsize = 20, color = '#76528BFF')
+    plt.xticks(color = '#76528BFF', fontsize = 20)
 
-#     plt.ylabel("Brands", fontfamily = 'sans serif', fontsize = 20, color = '#76528BFF')
-#     plt.yticks(color = '#76528BFF', fontsize = 15)
+    plt.ylabel("Brands", fontfamily = 'sans serif', fontsize = 20, color = '#76528BFF')
+    plt.yticks(color = '#76528BFF', fontsize = 15)
 
-#     plt.legend(prop={'size': 20})
-#     st.pyplot(fig)
+    plt.legend(prop={'size': 20})
+    st.pyplot(fig)
 
-# def stacked_bar2():
-#     fig, graph = plt.subplots(figsize=(20,20))
+def stacked_bar2():
+    fig, graph = plt.subplots(figsize=(20,20))
 
-#     graph.barh(car_brand_2, diesel_2, label = "Diesel", color = "#CBCE91FF")
-#     graph.barh(car_brand_2, gas_2, left=diesel_2, label = "Gasoline", color = "#76528BFF")
+    graph.barh(car_brand_2, diesel_2, label = "Diesel", color = "#CBCE91FF")
+    graph.barh(car_brand_2, gas_2, left=diesel_2, label = "Gasoline", color = "#76528BFF")
 
-#     graph.spines['top'].set_visible(False)
-#     graph.spines['right'].set_visible(False)
-#     graph.spines['left'].set_visible(False)
-#     graph.spines['bottom'].set_visible(False)
+    graph.spines['top'].set_visible(False)
+    graph.spines['right'].set_visible(False)
+    graph.spines['left'].set_visible(False)
+    graph.spines['bottom'].set_visible(False)
 
-#     plt.tick_params(left = False)
-#     plt.minorticks_off()
-#     plt.tick_params(bottom = False)
-#     plt.title("Amount of Diesel and Gasoline Vehicles by Brand", 
-#     fontfamily = 'sans serif', fontsize = 25, pad = 40, color = '#76528BFF')
+    plt.tick_params(left = False)
+    plt.minorticks_off()
+    plt.tick_params(bottom = False)
 
-#     plt.xlabel("Total Amount of Vehicles", fontfamily = 'sans serif', 
-#     fontsize = 20, color = '#76528BFF')
-#     plt.xticks(color = '#76528BFF', fontsize = 20)
+    plt.xlabel("Total Amount of Vehicles", fontfamily = 'sans serif', 
+    fontsize = 20, color = '#76528BFF')
+    plt.xticks(color = '#76528BFF', fontsize = 20)
 
-#     plt.ylabel("Brands", fontfamily = 'sans serif', fontsize = 20, color = '#76528BFF')
-#     plt.yticks(color = '#76528BFF', fontsize = 15)
+    plt.ylabel("Brands", fontfamily = 'sans serif', fontsize = 20, color = '#76528BFF')
+    plt.yticks(color = '#76528BFF', fontsize = 15)
 
-#     plt.legend(prop={'size': 20})
-#     st.pyplot(fig)
+    plt.legend(prop={'size': 20})
+    st.pyplot(fig)
 
-# left_col6, right_col6 = st.columns(2)
+st.markdown("<p style='text-align: center; font-size: 1em'>Amount of Diesel and Gasoline Vehicles by Brand</p>", unsafe_allow_html=True)
+line_break()
+left_col6, right_col6 = st.columns(2)
 
-# with left_col6:
-#     stacked_bar1()
-# with right_col6:
-#     stacked_bar2()
+with left_col6:
+    stacked_bar1()
+with right_col6:
+    stacked_bar2()
 
 # ##########################################################
 # ### Find 7 - Number of Vehicles by Gear and Fuel Types ###
