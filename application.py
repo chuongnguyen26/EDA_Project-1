@@ -505,8 +505,6 @@ with left_col6:
     st.markdown("<a style='color: black' href='https://www.whichcar.com.au/car-advice/what-is-engine-size-and-why-does-it-matter'>- WhichCar</a>",
     unsafe_allow_html=True)
 with right_col6:
-    line_break()
-    line_break()
     scatter4()
 
 def scatter5():
@@ -522,12 +520,10 @@ def scatter5():
     plt.ylabel("Average Price Per Vehicle Run On Gasoline", fontfamily = 'sans serif', fontsize = 20, color = '#195190FF')
     plt.yticks(color = '#195190FF', fontsize = 20)
     st.pyplot(fig)
+line_break()
 
 left_col7, right_col7 = st.columns(2)
-
 with left_col7:
-    line_break()
-    line_break()
     scatter5()
 with right_col7:
     st.write("On the other hand, vehicles run on gasoline are typically Sedan, SUV"
