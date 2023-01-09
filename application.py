@@ -918,7 +918,7 @@ if selected_tab == "Car Analysis":
             <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2"
             href="https://github.com/chuongnguyen26">GitHub</a></li>
             <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2"
-            href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin">
+            href="https://www.linkedin.com/in/chuong-nguyen-profile">
             LinkedIn</a></li>
             <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
             href="https://www.kaggle.com/chuong26">
