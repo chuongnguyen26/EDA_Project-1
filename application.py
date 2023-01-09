@@ -31,6 +31,72 @@ with st.sidebar:
     icons=["bar-chart", "card-text"],
     menu_icon="cast",
     )
+    line_break()
+    st.write("**Citations:**")
+    st.markdown("""
+        <ul>
+            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            hrefhttps://www.kaggle.com/datasets/vagnerbessa/average-car-prices-bazil">
+            Kaggle</a></li>
+            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2"
+            href="https://seaborn.pydata.org/generated/seaborn.scatterplot.html?highlight=scatterplot#seaborn.scatterplot">
+            Seaborn</a></li>
+            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2"
+            href="https://matplotlib.org/stable/plot_types/index.html">
+            Matplotlib</a></li>
+            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            href="https://matplotlib.org/stable/gallery/index.html">
+            Matplotlib</a></li>
+            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            href="https://stackoverflow.com/questions/63291627/how-to-do-internal-links-in-google-colab">
+            Stack Over Flow</a></li>
+            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            href="https://stackoverflow.com/questions/2969867/how-do-i-add-space-between-the-ticklabels-and-the-axes-in-matplotlib">
+            Stack Over Flow</a></li>
+            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            href="https://machinelearningmastery.com/one-hot-encoding-for-categorical-data/">
+            Machine Learning Mastery</a></li>
+            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            href="https://www.statology.org/matplotlib-legend-position/">
+            Statology</a></li>
+            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            href="https://www.freecodecamp.org/news/python-typeerror-int-object-not-subscriptable-solved/">
+            Free Code Camp</a></li>
+            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            href="https://designwizard.com/blog/design-trends/colour-combination/">
+            Design Wizard</a></li>
+            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            href="https://github.com/alckasoc">
+            Vincent's Github</a></li>
+            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            href="https://lottiefiles.com/39792-thank-you-note">
+            Mishal Alnazawi's Animation</a></li>
+            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            href="https://lottiefiles.com/90989-graph3">
+            UshaR's Animation</a></li>
+            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            href="https://lottiefiles.com/35070-car-loading">
+            Shah Iran's Animation</a></li>
+            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            href="https://lottiefiles.com/92042-fast-truck">
+            Rupesh Pattanayak's Animation</a></li>
+            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            href="https://lottiefiles.com/10911-json-journey">
+            Lulu's Animation</a></li>
+        </ul>""",
+        unsafe_allow_html=True
+    )
+    st.write("I would like to acknowledge all of sources mentioned above for"
+    " providing me the resources and opportunities to learn Exploratory Data"
+    " Analysis and making this project possible. I would like to give a shout out"
+    " to Vincent for being such as great Mentor. Thank You!")
+    st.write("(Note: All animations used in this application are from Lottie Files"
+    " which are free and have been permitted by creators for usage.)")
+    lottie_code5 = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_t7jtcf8d.json")
+
+    st_lottie(
+        lottie_code5,
+    )
 
 if selected_tab == "Car Analysis":
     data = pd.read_csv("./fipe_2022.csv")
@@ -892,6 +958,19 @@ else:
     " and this web application appealing to the viewers. I tried balancing between"
     " imagery and texts, picking the right fonts and colors for display. This project"
     " has taught me the non-cse skill that I think is very helpful in displaying my work"
-    " top the audience.")
+    " to the audience in the most appealing and easy understand.")
 
     st.header("3. Takeaways")
+    st.write("All in all, after much struggles and learning, I have grown a lot"
+    " as a Computer Science student and a human being. I have learned the importance"
+    " of googling. I learned how to use numpy, pandas, matplotlib, vscode, and streamlit."
+    " I have realized that sometimes I don't have to know everything in order to"
+    " work on a project. If I don't know what EDA is or Streamlit is, I learned not"
+    " to be afraid to google or ask my mentor. This project has taught me that if"
+    " I don't try, then how will I know where to start and what to learn. Though"
+    " this project has been tough and challenging. But to accomplish and make my goal"
+    " possible is far more meaningful. I have enjoyed every single part of this project"
+    " and I am looking forward to starting the 2nd phase. This journey is far from"
+    " over, as this is just the beginning of my journey.")
+    st.write("Until then, thank you for your time.")
+    st.write("Chuong Nguyen")
