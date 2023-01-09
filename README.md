@@ -3,7 +3,10 @@
 The official ACM AI The Real Team Tu repository.
 
 ## Table of Contents:
-- 
+- [1. Resources](https://github.com/chuongnguyen26/EDA_Project-1#1-resources)
+- [2. App Walk Through](https://github.com/chuongnguyen26/EDA_Project-1#2-app-walk-through)
+- [3. Difficulties I Faced](https://github.com/chuongnguyen26/EDA_Project-1#3-difficulties-we-faced)
+- [4. Author Info](https://github.com/chuongnguyen26/EDA_Project-1#4-author-info)
 
 ## 1. Resources
 
