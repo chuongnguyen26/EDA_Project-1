@@ -21,6 +21,6 @@ If you're just getting started and want to learn the necessary tools going into 
 
 [Insert your info]
 
-- Chuong Ngyuen:            [LinkedIn](www.linkedin.com/in/chuong-nguyen-profile) | [GitHub](https://github.com/chuongnguyen26)
+- Chuong Ngyuen:            [LinkedIn](https://www.linkedin.com/in/chuong-nguyen-profile) | [GitHub](https://github.com/chuongnguyen26)
          
 
