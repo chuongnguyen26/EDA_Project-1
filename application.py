@@ -882,5 +882,16 @@ else:
     " ACM mentor. I remember when generating my plots, I spent close to two weeks writing"
     " redundant codes that my Colab notebook looks so messy. I was hard coding"
     " every values from the dataset to plot my graphs. Through this project that"
-    " I learned to organize my code by defining methods and using loops and conditional"
-    " statements. ")
+    " I learned to organize my code by defining methods and using loops/conditional"
+    " statements. Another technical difficulty I faced was understanding linux"
+    " commands and just navigating vscode. I had difficulties cloning a repository in vscode and linking it to"
+    " github, change file directory, installing new libaries, and using linux commands"
+    " in the terminal. Through this project that I have the opportunity to practice"
+    " and getting confident with vscode and coding tools in general. For a non-technical"
+    " difficulty, I had some hard time designing and making both my notebook"
+    " and this web application appealing to the viewers. I tried balancing between"
+    " imagery and texts, picking the right fonts and colors for display. This project"
+    " has taught me the non-cse skill that I think is very helpful in displaying my work"
+    " top the audience.")
+
+    st.header("3. Takeaways")
