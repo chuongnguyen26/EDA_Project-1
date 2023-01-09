@@ -1,6 +1,6 @@
 # EDA_Project-1-
 
-The official ACM AI The Real Team Tu repository.
+The official Chuong Nguyen EDA repository.
 
 ## Table of Contents:
 - [1. Resources](https://github.com/chuongnguyen26/EDA_Project-1#1-resources)
