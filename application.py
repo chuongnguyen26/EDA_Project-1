@@ -35,52 +35,52 @@ with st.sidebar:
     st.write("**Citations:**")
     st.markdown("""
         <ul>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
-            hrefhttps://www.kaggle.com/datasets/vagnerbessa/average-car-prices-bazil">
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
+            href="https://www.kaggle.com/datasets/vagnerbessa/average-car-prices-bazil">
             Kaggle</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2"
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2"
             href="https://seaborn.pydata.org/generated/seaborn.scatterplot.html?highlight=scatterplot#seaborn.scatterplot">
             Seaborn</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2"
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2"
             href="https://matplotlib.org/stable/plot_types/index.html">
             Matplotlib</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="https://matplotlib.org/stable/gallery/index.html">
             Matplotlib</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="https://stackoverflow.com/questions/63291627/how-to-do-internal-links-in-google-colab">
             Stack Over Flow</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="https://stackoverflow.com/questions/2969867/how-do-i-add-space-between-the-ticklabels-and-the-axes-in-matplotlib">
             Stack Over Flow</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="https://machinelearningmastery.com/one-hot-encoding-for-categorical-data/">
             Machine Learning Mastery</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="https://www.statology.org/matplotlib-legend-position/">
             Statology</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="https://www.freecodecamp.org/news/python-typeerror-int-object-not-subscriptable-solved/">
             Free Code Camp</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="https://designwizard.com/blog/design-trends/colour-combination/">
             Design Wizard</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="https://github.com/alckasoc">
             Vincent's Github</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="https://lottiefiles.com/39792-thank-you-note">
             Mishal Alnazawi's Animation</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="https://lottiefiles.com/90989-graph3">
             UshaR's Animation</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="https://lottiefiles.com/35070-car-loading">
             Shah Iran's Animation</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="https://lottiefiles.com/92042-fast-truck">
             Rupesh Pattanayak's Animation</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="https://lottiefiles.com/10911-json-journey">
             Lulu's Animation</a></li>
         </ul>""",
@@ -114,15 +114,15 @@ if selected_tab == "Car Analysis":
     st.header("0. Table of Content")
     st.markdown("""
         <ul>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="#1-introduction">
             1. Introduction</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2"
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2"
             href="#2-eda-analysis">2. EDA Analysis</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2"
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2"
             href="#3-conclusion">
             3. Conclusion</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="#4-author-info">
             4. Author Info</a></li>
         </ul>""",
@@ -393,7 +393,7 @@ if selected_tab == "Car Analysis":
     " are too essential to eliminate> Additionally, since I'm evaluating price trends"
     " by month, the specific values are unimportant.")
 
-    st.markdown("<a style='color: black;' href='https://spectrumlocalnews.com/nys/central-ny/weather/2022/12/10/do-we-spend-more-money-when-it-s-cold-'>- Spectrum News1</a>",
+    st.markdown("<a href='https://spectrumlocalnews.com/nys/central-ny/weather/2022/12/10/do-we-spend-more-money-when-it-s-cold-'>- Spectrum News1</a>",
     unsafe_allow_html=True)
     line_break()
 
@@ -592,7 +592,7 @@ if selected_tab == "Car Analysis":
         " are popular among consumers is because they are more efficient and lesser cost"
         " to operate. While bigger engine size trucks are more powerful, but the less"
         " efficient performance and higher cost is too much for consumers to bear.")
-        st.markdown("<a style='color: black' href='https://www.whichcar.com.au/car-advice/what-is-engine-size-and-why-does-it-matter'>- WhichCar</a>",
+        st.markdown("<a href='https://www.whichcar.com.au/car-advice/what-is-engine-size-and-why-does-it-matter'>- WhichCar</a>",
         unsafe_allow_html=True)
     with right_col6:
         scatter4()
@@ -623,7 +623,7 @@ if selected_tab == "Car Analysis":
         " has the capacity to take in larger load, accelerate faster, and bigger in"
         " size. Which is very convenient for traveling long distance and carrying"
         " decent size cargoes that a truck might be large for the use.")
-        st.markdown("<a style='color: black' href='https://www.whichcar.com.au/car-advice/what-is-engine-size-and-why-does-it-matter'>- CarBuyer</a>", 
+        st.markdown("<a href='https://www.whichcar.com.au/car-advice/what-is-engine-size-and-why-does-it-matter'>- CarBuyer</a>", 
         unsafe_allow_html=True)
         lottie_code3 = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_zbyipz72.json")
         st_lottie(
@@ -912,15 +912,15 @@ if selected_tab == "Car Analysis":
 
     st.markdown("""
         <ul>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="https://github.com/chuongnguyen26/EDA_Project-1">
             GitHub Repo</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2"
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2"
             href="https://github.com/chuongnguyen26">GitHub</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2"
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2"
             href="https://www.linkedin.com/in/chuong-nguyen-profile">
             LinkedIn</a></li>
-            <li style="color: black;"><a style="color: black; text-decoration:none; font-size: 15px; line-height: 2" 
+            <li style="color: black;"><a style="text-decoration:none; font-size: 15px; line-height: 2" 
             href="https://www.kaggle.com/chuong26">
             Kaggle</a></li>
         </ul>""",
