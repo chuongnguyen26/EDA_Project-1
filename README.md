@@ -2,8 +2,6 @@
 
 The official Chuong Nguyen EDA repository.
 
-- [My App](https://chuongnguyen26-eda-project-1-application-n7yexu.streamlit.app)
-
 ## Table of Contents:
 - [1. Resources](https://github.com/chuongnguyen26/EDA_Project-1#1-resources)
 - [2. App Walk Through](https://github.com/chuongnguyen26/EDA_Project-1#2-app-walk-through)
@@ -16,7 +14,8 @@ If you're just getting started and want to learn the necessary tools going into 
 
 ## 2. App walk through
 
-[Insert some text on the structure of this repo and how everything is organized.]
+- [My App](https://chuongnguyen26-eda-project-1-application-n7yexu.streamlit.app)
+- [My EDA Notebook](https://colab.research.google.com/drive/1l1YneB566cPlTLWdKPvpY4jME4FYLg85#scrollTo=2a6gQsQlMnEo&uniqifier=1)
 
 ## 3. Difficulties I faced
 
