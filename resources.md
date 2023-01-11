@@ -17,18 +17,15 @@ are non-comprehensive. But for now, they are great starting points if you want t
 
 # 2. Resources 📘
 
-📌 __Note__: The following list is not comprehensive and are only suited for deep learning.
+📌 __Note__: The following list is not comprehensive and are only suited for machine learning.
 
 Deep Learning:
 
-- [Deep Learning Crash Course for Beginners
-](https://www.youtube.com/watch?v=VyWAvY2CF9c) by freeCodeCamp covers just the conceptual basics of deep neural networks.
-- [Keras with TensorFlow Course - Python Deep Learning and Neural Networks for Beginners Tutorial
-](https://www.youtube.com/watch?v=qFJeN9V1ZsI&t=3811s) by deeplizard provided by freeCodeCamp covers deep learning with a concentration on computer vision models. It focuses on practical implementation (with TensorFlow and Keras) rather than math.
-- [Introduction | Deep Learning Tutorial 1 (Tensorflow Tutorial, Keras & Python)
-](https://www.youtube.com/watch?v=Mubj_fqiAv8&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO) by codebasics covers a myriad of topics, covering concepts and their implementations in TensorFlow and Keras.
-- [TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial
-](https://www.youtube.com/watch?v=tPYj3fFJGjk&t=21s) by TechWithTim provided by freeCodeCamp briefly covers concepts while focusing mainly on the code implementation in TensorFlow and Keras.
+- [Kaggle Dataset](https://www.kaggle.com/datasets/vagnerbessa/average-car-prices-bazil) used in this project
+for EDA analysis.
+- [Keras with TensorFlow Course - Python Deep Learning and Neural Networks for Beginners Tutorial](https://www.youtube.com/watch?v=qFJeN9V1ZsI&t=3811s) by deeplizard provided by freeCodeCamp covers deep learning with a concentration on computer vision models. It focuses on practical implementation (with TensorFlow and Keras) rather than math.
+- [Introduction | Deep Learning Tutorial 1 (Tensorflow Tutorial, Keras & Python)](https://www.youtube.com/watch?v=Mubj_fqiAv8&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO) by codebasics covers a myriad of topics, covering concepts and their implementations in TensorFlow and Keras.
+- [TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial](https://www.youtube.com/watch?v=tPYj3fFJGjk&t=21s) by TechWithTim provided by freeCodeCamp briefly covers concepts while focusing mainly on the code implementation in TensorFlow and Keras.
 - [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://drive.google.com/drive/folders/1Cf4wpLLBomt-V6HDScNnOYLDfarcjjyZ) by Aurélien Géron is a comprehensive book for breaking into machine learning and deep learning. Part II of the book covers deep learning with TensorFlow and Keras.
 - [PyTorch Tutorials](https://www.youtube.com/watch?v=2S1dgHpqCdk&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz) by Aladdin Persson offers a code-centric guide to learning deep learning with the PyTorch framework.
 
