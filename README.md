@@ -2,7 +2,7 @@
 
 The official Chuong Nguyen EDA repository.
 
--[My App](https://chuongnguyen26-eda-project-1-application-n7yexu.streamlit.app)
+- [My App](https://chuongnguyen26-eda-project-1-application-n7yexu.streamlit.app)
 
 ## Table of Contents:
 - [1. Resources](https://github.com/chuongnguyen26/EDA_Project-1#1-resources)
@@ -18,9 +18,9 @@ If you're just getting started and want to learn the necessary tools going into 
 
 [Insert some text on the structure of this repo and how everything is organized.]
 
-## 3. Difficulties we faced
+## 3. Difficulties I faced
 
-[Insert some text on the difficulties you faced and how you solved them (images and GIFs are awesome).]
+In the process of making this project, I experienced a lot of unknowns and difficulties. I had to do a lot of googling and seeking helps from my ACM mentor. I remember when generating my plots, I spent close to two weeks writing redundant codes that my Colab notebook looks so messy. I was hard coding every values from the dataset to plot my graphs. Through this project that I learned to organize my code by defining methods and using loops/conditional statements. Another technical difficulty I faced was understanding linux commands and just navigating vscode. I had difficulties cloning a repository in vscode and linking it to github, change file directory, installing new libaries, and using linux commands in the terminal. Through this project that I have the opportunity to practice and getting confident with vscode and coding tools in general. For a non-technical difficulty, I had some hard time designing and making both my notebook and this web application appealing to the viewers. I tried balancing between imagery and texts, picking the right fonts and colors for display. This project has taught me the non-cse skill that I think is very helpful in displaying my work to the audience in the most appealing and easy understand.
 
 ## 4. Author Info
 
