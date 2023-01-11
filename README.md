@@ -10,7 +10,7 @@ The official Chuong Nguyen EDA repository.
 
 ## 1. Resources
 
-If you're just getting started and want to learn the necessary tools going into this project, check out [resources.md](https://github.com/acmucsd-projects/fa22-ai-team-3/blob/main/resources.md)!
+If you're just getting started and want to learn the necessary tools going into this project, check out [resources.md](https://github.com/chuongnguyen26/EDA_Project-1/blob/main/resources.md)!
 
 ## 2. App walk through
 
