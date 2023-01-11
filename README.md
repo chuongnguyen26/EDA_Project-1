@@ -2,6 +2,8 @@
 
 The official Chuong Nguyen EDA repository.
 
+-[My App](https://chuongnguyen26-eda-project-1-application-n7yexu.streamlit.app)
+
 ## Table of Contents:
 - [1. Resources](https://github.com/chuongnguyen26/EDA_Project-1#1-resources)
 - [2. App Walk Through](https://github.com/chuongnguyen26/EDA_Project-1#2-app-walk-through)
