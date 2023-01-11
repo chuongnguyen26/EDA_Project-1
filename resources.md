@@ -1,12 +1,12 @@
-# The Getting Started Kit by Vincent
+# The Getting Started Kit by Chuong Nguyen
 
 <div class="alert alert-block alert-info">
 Table of Contents: <br>
 <ul>
-    <li>1. <a href="https://github.com/acmucsd-projects/fa22-ai-team-3/blob/main/resources.md#1-introduction-">Introduction</a></li>
-    <li>2. <a href="https://github.com/acmucsd-projects/fa22-ai-team-3/blob/main/resources.md#2-resources-">Resources</a></li>
-    <li>3. <a href="https://github.com/acmucsd-projects/fa22-ai-team-3/blob/main/resources.md#3-advice-">Advice</a></li>
-    <li>4. <a href="https://github.com/acmucsd-projects/fa22-ai-team-3/blob/main/resources.md#4-ending-note-">Ending Note</a></li>
+    <li>1. <a href="https://github.com/chuongnguyen26/EDA_Project-1/blob/main/resources.md#1-introduction-">Introduction</a></li>
+    <li>2. <a href="https://github.com/chuongnguyen26/EDA_Project-1/blob/main/resources.md#2-resources-">Resources</a></li>
+    <li>3. <a href="https://github.com/chuongnguyen26/EDA_Project-1/blob/main/resources.md#3-advice-">Advice</a></li>
+    <li>4. <a href="https://github.com/chuongnguyen26/EDA_Project-1/blob/main/resources.md#4-ending-note">Ending Note</a></li>
 </ul>
 </div>
 
