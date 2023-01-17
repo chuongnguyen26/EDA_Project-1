@@ -18,11 +18,27 @@ Hey y'all! I'm Chuong Nguyen a 1st year at Marshall college studying Computer Sc
 
 - [Kaggle Dataset](https://www.kaggle.com/datasets/vagnerbessa/average-car-prices-bazil) used in this project
 for EDA analysis.
-- [Keras with TensorFlow Course - Python Deep Learning and Neural Networks for Beginners Tutorial](https://www.youtube.com/watch?v=qFJeN9V1ZsI&t=3811s) by deeplizard provided by freeCodeCamp covers deep learning with a concentration on computer vision models. It focuses on practical implementation (with TensorFlow and Keras) rather than math.
-- [Introduction | Deep Learning Tutorial 1 (Tensorflow Tutorial, Keras & Python)](https://www.youtube.com/watch?v=Mubj_fqiAv8&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO) by codebasics covers a myriad of topics, covering concepts and their implementations in TensorFlow and Keras.
-- [TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial](https://www.youtube.com/watch?v=tPYj3fFJGjk&t=21s) by TechWithTim provided by freeCodeCamp briefly covers concepts while focusing mainly on the code implementation in TensorFlow and Keras.
-- [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://drive.google.com/drive/folders/1Cf4wpLLBomt-V6HDScNnOYLDfarcjjyZ) by Aurélien Géron is a comprehensive book for breaking into machine learning and deep learning. Part II of the book covers deep learning with TensorFlow and Keras.
-- [PyTorch Tutorials](https://www.youtube.com/watch?v=2S1dgHpqCdk&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz) by Aladdin Persson offers a code-centric guide to learning deep learning with the PyTorch framework.
+
+
+I would like to acknowledge all of sources mentioned below for providing me the resources and opportunities to learn Exploratory Data Analysis and making this project possible. 
+
+- [](https://seaborn.pydata.org/generated/seaborn.scatterplot.html?highlight=scatterplot#seaborn.scatterplot)
+
+- https://matplotlib.org/stable/plot_types/index.html (MatplotLib)
+
+- https://matplotlib.org/stable/gallery/index.html (MatplotLib)
+
+- https://stackoverflow.com/questions/63291627/how-to-do-internal-links-in-google-colab (Stack Over Flow)
+
+- https://stackoverflow.com/questions/2969867/how-do-i-add-space-between-the-ticklabels-and-the-axes-in-matplotlib (Stack Over Flow)
+
+- https://machinelearningmastery.com/one-hot-encoding-for-categorical-data/ (Machine Learning Mastery)
+
+- https://www.statology.org/matplotlib-legend-position/ (Statology)
+
+- https://www.freecodecamp.org/news/python-typeerror-int-object-not-subscriptable-solved/ (Free Code Camp)
+
+- https://designwizard.com/blog/design-trends/colour-combination/ (Design Wizard)
 
 # 3. Advice 🤔
 
