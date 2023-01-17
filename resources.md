@@ -19,33 +19,27 @@ Hey y'all! I'm Chuong Nguyen a 1st year at Marshall college studying Computer Sc
 - [Kaggle Dataset](https://www.kaggle.com/datasets/vagnerbessa/average-car-prices-bazil) used in this project
 for EDA analysis.
 
+- [Documentation 1:](https://seaborn.pydata.org/generated/seaborn.scatterplot.html?highlight=scatterplot#seaborn.scatterplot) on how to make a scatterplot using seaborn.
 
-I would like to acknowledge all of sources mentioned below for providing me the resources and opportunities to learn Exploratory Data Analysis and making this project possible. 
+- [Documentation 2:](https://matplotlib.org/stable/plot_types/index.html) on how to make different plots using matplotlib.
 
-- [](https://seaborn.pydata.org/generated/seaborn.scatterplot.html?highlight=scatterplot#seaborn.scatterplot)
+- [Documentation 3:](https://matplotlib.org/stable/gallery/index.html) on how to make different plots using matplotlib.
 
-- https://matplotlib.org/stable/plot_types/index.html (MatplotLib)
+- [Tutorial: 1](https://stackoverflow.com/questions/63291627/how-to-do-internal-links-in-google-colab) on how to add internal links.
 
-- https://matplotlib.org/stable/gallery/index.html (MatplotLib)
+- [Tutorial 2:](https://stackoverflow.com/questions/2969867/how-do-i-add-space-between-the-ticklabels-and-the-axes-in-matplotlib) on how to personalize plots with matplotlib.
 
-- https://stackoverflow.com/questions/63291627/how-to-do-internal-links-in-google-colab (Stack Over Flow)
+- [Tutorial 3:]https://machinelearningmastery.com/one-hot-encoding-for-categorical-data/ on how to preprocess data for machine learning using different methods.
 
-- https://stackoverflow.com/questions/2969867/how-do-i-add-space-between-the-ticklabels-and-the-axes-in-matplotlib (Stack Over Flow)
+- [Tutorial 4:](https://www.statology.org/matplotlib-legend-position/) on how to personalize plots with matplotlib
 
-- https://machinelearningmastery.com/one-hot-encoding-for-categorical-data/ (Machine Learning Mastery)
+- [Tutorial 5:](https://www.freecodecamp.org/news/python-typeerror-int-object-not-subscriptable-solved/) on how to debug with type int error.
 
-- https://www.statology.org/matplotlib-legend-position/ (Statology)
-
-- https://www.freecodecamp.org/news/python-typeerror-int-object-not-subscriptable-solved/ (Free Code Camp)
-
-- https://designwizard.com/blog/design-trends/colour-combination/ (Design Wizard)
+- [Tutorial 6:](https://designwizard.com/blog/design-trends/colour-combination/) on choosing color palettes for plots.
 
 # 3. Advice 🤔
 
-- Toy with the code. Experiment with it and see how it works.
-- If you read Aurélien Géron's book, I advise you to do the exercises and organize your code in this repo!
-- Tutorial hell is a commonly thrown around phrase describing the difficulties of the wealth of tutorials available to you. Some are confusing. Sometimes there are too many. Some are not comprehensive. Some don't include the information you want. Sometimes there are too many tutorials and it seems as if your progression has been halted. My advice is simply to pick a reliable source. Stick with it. Navigate through other tutorials if needed, but look elsewhere to learn more once you have mastered your fundamentals.
-- Start small and work your way up. Start by learning the basics, implementing basic projects. Then, once you've grown comfortable with this cycle, upgrade to more advanced knowledge until you are ready to tackle your project. 
+- "I have not failed. I've just found 10,000 ways that won't work." - Thomas Edison
 
 # 4. Ending Note
 
