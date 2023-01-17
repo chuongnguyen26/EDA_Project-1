@@ -29,7 +29,7 @@ for EDA analysis.
 
 - [Tutorial 2:](https://stackoverflow.com/questions/2969867/how-do-i-add-space-between-the-ticklabels-and-the-axes-in-matplotlib) on how to personalize plots with matplotlib.
 
-- [Tutorial 3:]https://machinelearningmastery.com/one-hot-encoding-for-categorical-data/ on how to preprocess data for machine learning using different methods.
+- [Tutorial 3:](https://machinelearningmastery.com/one-hot-encoding-for-categorical-data/) on how to preprocess data for machine learning using different methods.
 
 - [Tutorial 4:](https://www.statology.org/matplotlib-legend-position/) on how to personalize plots with matplotlib
 
