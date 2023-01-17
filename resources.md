@@ -39,10 +39,12 @@ for EDA analysis.
 
 # 3. Advice 🤔
 
-- "I have not failed. I've just found 10,000 ways that won't work." - Thomas Edison
+- "I have not failed. I've just found 10,000 ways that won't work." - Thomas Edison. To be successful at the projects you do, to achieve the goals that you set, and to become the person that you want to be, then failure is not option.
+- If your studying habit is not working for you, don't continue because doing so will only slow you down.
+- To be successful at the goals you pursue takes time and planning. 
 
 # 4. Ending Note
 
-Making a great project is cool. Making new friends, learning new things, and leaving with curiosity is better. Have fun with the project. Collaborate and meet up. Struggle and learn together.
+Start small, steady and master the small tasks. Remember that success won't always come on the first try. Always stay positive and be curious.
 
 
