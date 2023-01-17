@@ -12,14 +12,9 @@ Table of Contents: <br>
 
 # 1. Introduction 👋
 
-Hey y'all! I'm Vincent a 2nd year at 6th college studying Computer Science with a heavy interest in AI. Below I've provided some resources and advice. These lists
-are non-comprehensive. But for now, they are great starting points if you want to learn more on your own or for your project!
+Hey y'all! I'm Chuong Nguyen a 1st year at Marshall college studying Computer Science with a passion for ML. I've included some of the resources down below that I have used over the course of this project. Feel free to check them out.
 
 # 2. Resources 📘
-
-📌 __Note__: The following list is not comprehensive and are only suited for machine learning.
-
-Deep Learning:
 
 - [Kaggle Dataset](https://www.kaggle.com/datasets/vagnerbessa/average-car-prices-bazil) used in this project
 for EDA analysis.
