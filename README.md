@@ -23,8 +23,6 @@ In the process of making this project, I experienced a lot of unknowns and diffi
 
 ## 4. Author Info
 
-[Insert your info]
-
 - Chuong Ngyuen:            [LinkedIn](https://www.linkedin.com/in/chuong-nguyen-profile) | [GitHub](https://github.com/chuongnguyen26)
          
 
